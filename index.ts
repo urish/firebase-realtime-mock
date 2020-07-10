@@ -1,3 +1,4 @@
+/// <reference lib="dom" />
 import * as Firebase from 'firebase';
 
 const referencePrototype = (Firebase.database as any).Reference.prototype;
